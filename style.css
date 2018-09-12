@@ -1,0 +1,103 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-user-select: none;
+}
+
+#container {
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+	height: 100%;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#dashboard,
+#calculator {
+	position: relative;
+	width: 360px;
+	height: 600px;
+	cursor: pointer;
+}
+
+#dashboard {
+	font-family: 微软雅黑;
+}
+
+.front,
+.back {
+	position: absolute;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 100%;
+	height: 100%;
+	background: purple;
+	color: white;
+	font-size: 40px;
+	transition: all 0.5s;
+	backface-visibility: hidden;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(180deg);
+}
+
+.front.active {
+	transform: rotateY(0deg);
+}
+
+.back {
+	z-index: 1;
+	text-align: center;
+	transform: rotateY(180deg);
+}
+
+.back.active {
+	transform: rotateY(0deg);
+}
+
+#calculator {
+	border: 2px solid purple;
+	font-family: "华文细黑";
+}
+
+.screen {
+	box-sizing: border-box;
+	height: 120px;
+	background: purple;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	line-height: 120px;
+}
+
+.number {
+	height: 480px;
+	color: purple;
+}
+
+.number span {
+	float: left;
+	display: block;
+	box-sizing: border-box;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 120px;
+	transition: all 0.5s;
+}
+
+.number span:hover,
+.number span.disabled {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+p {
+	margin: 0;
+}
