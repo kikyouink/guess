@@ -9,3 +9,6 @@
 
 ### 操作指南
 + 直接打开index.html。
+
+### 预览
+![预览](https://upload-images.jianshu.io/upload_images/5750842-873f709009e9955d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
