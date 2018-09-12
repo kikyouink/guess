@@ -11,4 +11,4 @@
 + 直接打开index.html。
 
 ### 预览
-![预览](https://upload-images.jianshu.io/upload_images/5750842-8363275788880553.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![预览](https://upload-images.jianshu.io/upload_images/5750842-98327fb2bd586a47.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
